@@ -3,31 +3,35 @@ Treehouse FSJS Techdegree:
 project 1 - A Random Quote Generator
 ******************************************/
 
-// For assistance: 
-  // Check the "Project Resources" section of the project instructions
-  // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
+// For assistance:
+// Check the "Project Resources" section of the project instructions
+// Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
 
-/*** 
- * `quotes` array 
-***/
+/***
+ * `quotes` array
+ ***/
 
-
+let quotes = [
+  { quote: "", source: "" },
+  { quote: "", source: "" },
+  { quote: "", source: "" },
+  { quote: "", source: "", year: 2000 },
+  { quote: "", source: "", citation: ""},
+];
 
 /***
  * `getRandomQuote` function
-***/
-
-
+ ***/
 
 /***
  * `printQuote` function
-***/
-
-
+ ***/
 
 /***
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!
-***/
+ ***/
 
-document.getElementById('load-quote').addEventListener("click", printQuote, false);
+document
+  .getElementById("load-quote")
+  .addEventListener("click", printQuote, false);
